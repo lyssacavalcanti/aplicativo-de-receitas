@@ -6,11 +6,16 @@
 body {
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "Poppins", sans-serif;
     margin: 0;
+    height: 100vh;
 }
 
 .mobile-container {
+    background-color: #fff;
     width:400px;
 }
 
